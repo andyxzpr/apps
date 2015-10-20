@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+<name>triqui </name>
+<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+</feature>
+<icon src="triqui.png" gap:platform="android" gap:density="ldpi" />
+<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
+<description>
+App de Prueba
+</description>
+<preference name="stay-in-webview" value="false" />
+<author href="https://www.facebook.com/andyx.valenciia" email="andyx0513@gmail.com">
+Andyx Valencia
+</author>
+
+</widget>
